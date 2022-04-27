@@ -24,3 +24,11 @@ footer {
     position: relative;
 }
 
+.carousel div img {
+    width: 95%;
+    border-radius: 10px;
+    outline: 2px solid rgb(81, 0, 255);
+    outline-offset: 4px;
+    margin: 12px 0;
+}
+
