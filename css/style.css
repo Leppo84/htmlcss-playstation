@@ -21,7 +21,7 @@ section > .jumbo_img {
     object-fit: cover;
 }
 
-#logotype_img {
+.logotype_img {
     width: 55%;
 }
 
@@ -43,6 +43,10 @@ section > .jumbo_img {
 div.games_carousel img {
     width: 95%;
     margin-bottom: 10px;
+}
+
+#ps_plus {
+    background-color: #bebcbb;
 }
 
 footer {
