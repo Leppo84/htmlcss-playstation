@@ -6,11 +6,6 @@ img {
     max-width: 100%;
 }
 
-footer {
-    background-color: #0084ff;
-    color: white;
-}
-
 .bg_black {
     background-color: black;
     padding: 10px;
@@ -20,8 +15,14 @@ footer {
     width: 100px;
 }
 
-.jumbo_container {
-    position: relative;
+#jumbo_img {
+    width: auto;
+    min-height: 380px;
+    object-fit: cover;
+}
+
+#logotype_img {
+    width: 55%;
 }
 
 .carousel div img {
@@ -32,3 +33,7 @@ footer {
     margin: 12px 0;
 }
 
+footer {
+    background-color: #0084ff;
+    color: white;
+}

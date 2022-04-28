@@ -14,10 +14,10 @@
     <!-- custom css link -->
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Document</title>
+    <title>Playstation rampage</title>
 </head>
 <body>
-    <header>
+    <header class="fixed-top">
         <div class="container-fluid bg_black">
             <div class="row text-end">
                 <div class="col-12">
@@ -25,13 +25,46 @@
                 </div>
             </div>
         </div>
-        <nav>
-            TBD
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
-        <section class="jumbo_container">
-            <img src="img/jumbo-bg.png" alt="Returnal splash">
+        <br>
+        <section id="jumbo_carousel" class="text-white mt-5">
+            <br>
+            <img id="jumbo_img" src="img/jumbo-bg.png" alt="Returnal splash">    
+            <div class="container"></div>
+                <div class="position-relative row">
+                    <div class="position-absolute bottom-0 start-0 col-12 col-lg-4 ms-3">
+                        <img id="logotype_img" class="mb-3" src="img/returnal-hero-banner-logo.png" alt="Returnal Logotype">
+                        <h1>Rompi il cerchio</h1>
+                        <br>
+                        <p>
+                            Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.
+                        </p>
+                    </div>
+                </div>    
+            </div>
             <div class="container">
                 <div class="row carousel justify-content-around">
                     <div class="col-6 col-md-4 col-xl-2">
@@ -54,9 +87,10 @@
                     </div>
                 </div>
             </div>
+    
 
         </section>
-
+        
     </main>
     <footer>
     </footer>
