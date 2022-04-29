@@ -39,44 +39,88 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="#games_tab_panel" role="button" data-bs-toggle="collapse" data-bs-target="#games_tab_panel" aria-expanded="false" aria-label="Toggle navigation">
-                            Dropdown link
+                            <a class="nav-link dropdown-toggle" href="#" id="#games_tab_panel" role="button" data-bs-toggle="collapse" data-bs-target="#games_tab_panel" aria-expanded="true" aria-label="Toggle navigation">
+                            Giochi
                             </a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="#games_tab_panel" role="button" data-bs-toggle="collapse" data-bs-target="#games_tab_panel" aria-expanded="false" aria-label="Toggle navigation">
-                            Dropdown link
+                            Hardware
                             </a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="#games_tab_panel" role="button" data-bs-toggle="collapse" data-bs-target="#games_tab_panel" aria-expanded="false" aria-label="Toggle navigation">
-                            Dropdown link
+                            Servizi
                             </a>
                         </li>
-
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="#games_tab_panel" role="button" data-bs-toggle="collapse" data-bs-target="#games_tab_panel" aria-expanded="false" aria-label="Toggle navigation">
+                            Novità
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="#games_tab_panel" role="button" data-bs-toggle="collapse" data-bs-target="#games_tab_panel" aria-expanded="false" aria-label="Toggle navigation">
+                            Fai acquisti
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="#games_tab_panel" role="button" data-bs-toggle="collapse" data-bs-target="#games_tab_panel" aria-expanded="false" aria-label="Toggle navigation">
+                            Supporto
+                            </a>
+                        </li>
                     </ul>
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="#alt_tab_panel" role="button" data-bs-toggle="collapse" data-bs-target="#alt_tab_panel" aria-expanded="false" aria-label="Toggle navigation">
-                            Dropdown link
+                            My PlayStation
                             </a>
                         </li>
                     </ul>
-                    <form class="d-none d-lg-flex">
-                        <button class="btn btn-dark " type="submit">Accedi</button>
+                    <div class="d-none d-lg-flex">
+                        <button class="btn btn-dark rounded-pill ms-2">Accedi</button>
                         <span>
-                            <img src="img/lens.svg" alt="Search icon">
+                            <img class="ms-3 pt-1" src="img/lens.svg" alt="Search icon" width="30" height="30">
                         </span>
-                    </form>
-
+                    </div>
+                    <button class="d-flex d-lg-none btn btn-dark rounded-pill">Accedi</button>
                     <form class="d-flex d-lg-none">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <input class="form-control me-2 mod_lens" type="search" placeholder="     Search" aria-label="Search">
                     </form>
                 </div>
             </div>
         </nav>
         <div class="collapse" id="games_tab_panel">
+            <div class="container-fluid bg-light">
+                <div class="row flex-row justify-content-center">
+                    <div id="menu_icon col-4 col-md-2 col-lg-1">
+                        <img src="img/play-menu-ico.png" alt="" class="d-inline mod_ps_icon">
+                    </div>
+                    <div id="menu_icon col-4 col-md-2 col-lg-1">
+                        <img src="img/play-menu-ico.png" alt="" class="d-inline mod_ps_icon">
+                    </div>
+                    <div id="menu_icon col-4 col-md-2 col-lg-1">
+                        <img src="img/play-menu-ico.png" alt="" class="d-inline mod_ps_icon">
+                    </div>                    
+                </div>
+                <hr>
+                <ul class="list-group-horizontal">
+                    <li>
+                        <a href="#">
+                            Sub link servizi
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Sub link
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Sub link
+                        </a>
+                    </li>
+                </ul>
+            </div>
             <div class="bg-light p-4">
                 <h5 class="h4">Collapsed content</h5>
                 <span class="text-muted">Toggleable via the navbar brand.</span>
